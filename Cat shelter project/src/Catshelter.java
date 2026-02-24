@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Catshelter {
 
-    // Class القطة
     static class Cat {
 
         String name;
@@ -52,7 +51,6 @@ public class Catshelter {
 
 
 
-    // اضافة قطة
     static void addCat(Scanner input){
 
         System.out.println("Name:");
@@ -85,7 +83,6 @@ public class Catshelter {
 
 
 
-    // عرض القطط
     static void showCats(){
 
         for(Cat c:cats){
@@ -98,7 +95,7 @@ public class Catshelter {
 
 
 
-    // عدد القطط
+
     static void countCats(){
 
         System.out.println("Cats = "+cats.size());
@@ -107,7 +104,7 @@ public class Catshelter {
 
 
 
-    // حذف قطة
+
     static void deleteCat(Scanner input){
 
         System.out.println("Enter Name:");
@@ -134,7 +131,7 @@ public class Catshelter {
 
 
 
-    // البحث عن قطة
+
     static void searchCat(Scanner input){
 
         System.out.println("Enter Name");
@@ -159,7 +156,7 @@ public class Catshelter {
 
 
 
-    // عدد المتطوعين
+
     static void volunteers(Scanner input){
 
         System.out.println("Enter Volunteers Number");
@@ -170,7 +167,7 @@ public class Catshelter {
 
 
 
-    // عرض معلومات الملجأ
+
     static void shelterInfo(){
 
         System.out.println("Cats Number = "+cats.size());
